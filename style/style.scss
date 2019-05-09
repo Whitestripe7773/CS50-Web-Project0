@@ -1,0 +1,107 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover{
+    background-color: cyan;
+}
+
+#skillList{
+    list-style-type: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 100px 800px;
+}
+
+.img1, .img2{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url("../img/picture3.jpg");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("../img/picture5.jpg");
+    min-height: 100%;
+}
+
+.sectiontop{
+    padding: 300px 60px;
+    background-color: transparent;
+    color: #ddd;
+    text-align: center;
+}
+
+.sections{
+    padding: 40px 60px;
+    background-color: #111;
+    color: #ddd;
+    text-align: center;
+}
+
+.ptext{
+    position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+	background-color: transparent;
+}
+
+
+footer{
+	padding: 10px;
+	color: #ffffff;
+	background-color: #111;
+	text-align: center;
+}
