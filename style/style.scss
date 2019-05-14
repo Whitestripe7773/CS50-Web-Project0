@@ -44,7 +44,7 @@ li a:hover{
     padding: 100px 800px;
 }
 
-.img1, .img2{
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -54,12 +54,42 @@ li a:hover{
 }
 
 .img1{
-    background-image: url("../img/picture3.jpg");
+    background-image: url("../img/picture1.jpg");
     min-height: 100%;
 }
 
 .img2{
+    background-image: url("../img/picture2.jpg");
+    min-height: 100%;
+}
+
+.img3{
+    background-image: url("../img/picture3.jpg");
+    min-height: 100%;
+}
+
+.img4{
+    background-image: url("../img/picture4.jpg");
+    min-height: 100%;
+}
+
+.img5{
     background-image: url("../img/picture5.jpg");
+    min-height: 100%;
+}
+
+.img6{
+    background-image: url("../img/picture6.jpg");
+    min-height: 100%;
+}
+
+.img7{
+    background-image: url("../img/picture7.jpg");
+    min-height: 100%;
+}
+
+.img8{
+    background-image: url("../img/picture8.jpg");
     min-height: 100%;
 }
 
@@ -79,11 +109,11 @@ li a:hover{
 
 .ptext{
     position: absolute;
-	top: 50%;
+	top: 40%;
 	width: 100%;
 	text-align: center;
 	color: #000;
-	font-size: 27px;
+	font-size: 30px;
 	letter-spacing: 8px;
     text-transform: uppercase;
 }
@@ -95,13 +125,26 @@ li a:hover{
 }
 
 .ptext .border.trans{
-	background-color: transparent;
+    background-color: transparent;
 }
 
+.night{
+    padding-left: 10%;
+    text-align: left;
+}
+
+.table{
+    padding: auto;
+}
 
 footer{
 	padding: 10px;
 	color: #ffffff;
 	background-color: #111;
 	text-align: center;
+}
+
+#ig-icon{
+    display: inline-block;
+    font-size: 30px;
 }
