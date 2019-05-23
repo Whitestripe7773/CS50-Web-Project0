@@ -8,6 +8,23 @@ body, html {
   color: #666;
 }
 
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.navbar-custom {
+  background-color: #111;
+  border-color: black;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -34,7 +51,8 @@ li a {
 }
 
 li a:hover {
-  background-color: cyan;
+  background-color: lightgreen;
+  color: white;
 }
 
 #skillList {
@@ -118,14 +136,15 @@ li a:hover {
   text-transform: uppercase;
 }
 
-.ptext .border {
+.ptext .trans {
   background-color: #111;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
+  background-color: transparent;
 }
 
-.ptext .border.trans {
-  background-color: transparent;
+.btn {
+  width: 50%;
 }
 
 .night {
@@ -142,6 +161,10 @@ footer {
   color: #ffffff;
   background-color: #111;
   text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
 }
 
 #ig-icon {
