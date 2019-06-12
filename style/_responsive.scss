@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .carousel-caption{
+      top: 45%;
+    }
+    .carousel-caption h1{
+      font-size: 350%;
+    }
+    .carousel-caption h3{
+      font-size: 150%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+      font-size: 95%;
+      padding: 8px 14px;
+    }
+}
+
+  @media (max-width: 576px) {
+    .carousel-caption{
+      top: 40%;
+    }
+    .carousel-caption h1{
+      font-size: 250%;
+    }
+    .carousel-caption h3{
+      font-size: 110%;
+    }
+    .carousel-caption .btn{
+      font-size: 90%;
+      padding: 4px 8px;
+    }
+  }

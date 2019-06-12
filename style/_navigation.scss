@@ -1,0 +1,16 @@
+.navbar{
+    padding: .8rem;
+  }
+  
+  .navbar-nav li{
+    padding-right: 20px;
+  }
+  
+  .nav-link{
+    font-size: 1.1em !important;
+  }
+
+.navbar-custom {
+    background-color: $primaryColor;
+    border-color: black;
+}

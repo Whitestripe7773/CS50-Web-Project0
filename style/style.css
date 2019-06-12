@@ -1,13 +1,3 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
-}
-
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -24,7 +14,7 @@ body, html {
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 15x #000;
+  text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption h3 {
@@ -34,18 +24,9 @@ body, html {
   padding-bottom: 1rem;
 }
 
-.hrlight-top {
-  border-top: 1px solid #d5d5d5;
-  width: 75%;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-}
-
-.hrlight-bot {
-  border-top: 1px solid #d5d5d5;
-  width: 75%;
-  margin-top: 2rem;
-  margin-bottom: 0rem;
+.carousel-indicators li:hover {
+  margin: 0 2px;
+  background-color: #337ab7;
 }
 
 .navbar {
@@ -63,43 +44,6 @@ body, html {
 .navbar-custom {
   background-color: #111;
   border-color: black;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #111;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: lightgreen;
-  color: white;
-}
-
-#skillList {
-  list-style-type: none;
-  background-color: transparent;
-  font-size: 20px;
-  padding: 100px 800px;
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
@@ -146,25 +90,6 @@ li a:hover {
   min-height: 100%;
 }
 
-.img8 {
-  background-image: url("../img/picture8.jpg");
-  min-height: 100%;
-}
-
-.sectiontop {
-  padding: 300px 60px;
-  background-color: transparent;
-  color: #ddd;
-  text-align: center;
-}
-
-.sections {
-  padding: 30px 60px;
-  background-color: #111;
-  color: #ddd;
-  text-align: center;
-}
-
 .ptext {
   position: absolute;
   top: 40%;
@@ -181,35 +106,6 @@ li a:hover {
   color: #fff;
   padding: 40px;
   background-color: transparent;
-}
-
-.btn {
-  width: 50%;
-}
-
-.night {
-  padding-left: 10%;
-  text-align: left;
-}
-
-.table {
-  padding: auto;
-}
-
-footer {
-  padding: 10px;
-  color: #ffffff;
-  background-color: #111;
-  text-align: center;
-}
-
-footer p {
-  padding-top: 10px;
-}
-
-#ig-icon {
-  display: inline-block;
-  font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -244,8 +140,103 @@ footer p {
     font-size: 90%;
     padding: 4px 8px;
   }
-  .carousel-indicators {
-    display: none;
-  }
+}
+
+footer {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
+}
+
+.hrlight-top, .hrlight-bot {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+
+.sections {
+  padding: 30px 60px;
+  background-color: #111;
+  color: #ddd;
+  text-align: center;
+}
+
+.hrlight-top {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+.hrlight-bot {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+#skillList {
+  list-style-type: none;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 100px 800px;
+}
+
+.btn {
+  width: 50%;
+}
+
+.night {
+  padding-left: 10%;
+  text-align: left;
+}
+
+.table {
+  padding: auto;
+}
+
+#ig-icon {
+  display: inline-block;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */

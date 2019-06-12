@@ -1,0 +1,23 @@
+%hr-shared{
+    border-top: 1px solid $hrColor;
+    width: 75%;
+}
+
+.sections{
+    padding: 30px 60px;
+    background-color: $primaryColor;
+    color: #ddd;
+    text-align: center;
+}
+
+.hrlight-top{
+    @extend %hr-shared;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.hrlight-bot{
+    @extend %hr-shared;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
